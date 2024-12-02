@@ -1,4 +1,4 @@
-package com.aravind.spring_demo;
+package com.aravind.spring_demo.game;
 
 public class Islander implements Game {
 

@@ -1,4 +1,6 @@
-package com.aravind.spring_demo;
+package com.aravind.spring_demo.game;
+
+import org.springframework.stereotype.Component;
 
 public interface Game {
 
