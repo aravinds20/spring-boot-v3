@@ -1,6 +1,12 @@
-package com.aravind.spring_demo.game;
+package com.aravind.spring_demo.learnSpringFramework02;
 
-public class Pacman implements Game {
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+
+
+@Component
+@Qualifier("pacman")
+public class Pacman implements GamingConsole {
 
     public void up(){
         System.out.println("up");

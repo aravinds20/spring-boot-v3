@@ -1,6 +1,11 @@
-package com.aravind.spring_demo.game;
+package com.aravind.spring_demo.learnSpringFramework02;
 
-public class Supermario implements Game {
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Component;
+
+@Component
+@Primary
+public class Supermario implements GamingConsole {
 
     public void up(){
         System.out.println("Jump");

@@ -1,4 +1,4 @@
-package com.aravind.spring_demo.helloWorld;
+package com.aravind.spring_demo.learnSpringFramework01;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

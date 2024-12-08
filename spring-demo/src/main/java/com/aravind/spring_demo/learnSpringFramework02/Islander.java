@@ -1,6 +1,11 @@
-package com.aravind.spring_demo.game;
+package com.aravind.spring_demo.learnSpringFramework02;
 
-public class Islander implements Game {
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+
+@Component
+@Qualifier("Islander")
+public class Islander implements GamingConsole {
 
     public void up(){
         System.out.println("Jump");
