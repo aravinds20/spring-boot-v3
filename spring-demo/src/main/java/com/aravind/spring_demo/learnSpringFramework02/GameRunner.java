@@ -9,7 +9,7 @@ public class GameRunner {
 
     public GamingConsole gamingConsole;
 
-    public GameRunner(@Qualifier("Islander") GamingConsole gamingConsole) {
+    public GameRunner(@Qualifier("pacman") GamingConsole gamingConsole) {
         this.gamingConsole = gamingConsole;
     }
 

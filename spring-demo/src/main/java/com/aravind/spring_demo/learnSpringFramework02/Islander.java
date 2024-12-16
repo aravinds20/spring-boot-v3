@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component
-@Qualifier("Islander")
+@Qualifier("islander")
 public class Islander implements GamingConsole {
 
     public void up(){
