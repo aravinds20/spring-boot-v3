@@ -1,4 +1,4 @@
-package com.aravind.spring_demo.exercise;
+package com.aravind.spring_demo.c1;
 
 public interface DataService {
 

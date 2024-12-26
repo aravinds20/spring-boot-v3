@@ -1,7 +1,6 @@
-package com.aravind.spring_demo.exercise;
+package com.aravind.spring_demo.c1;
 
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component
